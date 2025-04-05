@@ -1,0 +1,25 @@
+
+/* Header Link Focus and Hover */
+nav a:focus, nav a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    outline: none;
+}
+
+/* Mobile Responsiveness for History Section */
+@media (max-width: 768px) {
+    .history {
+        grid-template-columns: 1fr;
+    }
+
+    .adventures {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Additional Media Queries for Mobile Responsiveness */
+@media (max-width: 480px) {
+    .adventures {
+        grid-template-columns: 1fr;
+    }
+}
